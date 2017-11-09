@@ -1,0 +1,145 @@
+h1 {
+text-align: center
+}
+
+#calculette {
+	height:400px;
+	width:400px;
+	border:solid;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+input[type=search] {
+	border: 1px #999;
+	margin-top:8px;
+	border-radius: 0;
+	padding: 20px 50px;
+  -webkit-appearance: none;
+}
+
+clavier {
+  display: grid;
+  	height:100%;
+	width:100%;
+	
+  grid-template-columns: 25% 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
+
+ecran {
+	grid-column: 1;
+	grid-column-end: 5;
+	border-style: outset;
+	background:#d34836;
+	
+}
+
+c {
+  grid-column: 1; grid-row: 2;
+  border-style: outset;
+	text-align: center;
+}
+
+lo{
+  grid-column: 2; grid-row: 2;
+  border-style: outset;
+	text-align: center;
+}
+
+go {
+  grid-column: 3; grid-row: 2;
+  border-style: outset;
+	text-align: center;
+}
+
+egal {
+  grid-column: 4; grid-row: 2;
+  border-style: outset;
+	text-align: center;
+}
+
+
+un {
+  grid-column: 1; grid-row: 3;
+  border-style: outset;
+	text-align: center;
+}
+deux {
+  grid-column: 2; grid-row: 3; 
+  border-style: outset;
+}
+trois {
+  grid-column: 3; grid-row: 3;
+  border-style: outset;
+}
+plus {
+  grid-column: 4; grid-row: 3; 
+  border-style: outset;
+}
+
+
+quatre {
+  grid-column: 1; grid-row: 4;
+  border-style: outset;
+}
+cinq {
+  grid-column: 2; grid-row: 4; 
+  border-style: outset;
+}
+six {
+  grid-column: 3; grid-row: 4;
+  border-style: outset;
+}
+moins {
+  grid-column: 4; grid-row: 4; 
+  border-style: outset;
+}
+
+
+sept {
+  grid-column: 1; grid-row: 5;
+  border-style: outset;
+}
+huit {
+  grid-column: 2; grid-row: 5; 
+  border-style: outset;
+}
+neuf {
+  grid-column: 3; grid-row: 5;
+  border-style: outset;
+}
+fois {
+  grid-column: 4; grid-row: 5; 
+  border-style: outset;
+}
+
+
+gauche {
+  grid-column: 1; grid-row: 6;
+  border-style: outset;
+}
+zero {
+  grid-column: 2; grid-row: 6; 
+  border-style: outset;
+}
+droite {
+  grid-column: 3; grid-row: 6;
+  border-style: outset;
+}
+divise {
+  grid-column: 4; grid-row: 6; 
+  border-style: outset;
+}
+.bouton {
+   height:75px;
+   width:75px;
+   font-size:26px;
+   
+	
+
